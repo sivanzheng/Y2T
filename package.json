@@ -1,0 +1,41 @@
+{
+  "name": "y2t",
+  "version": "1.0.0",
+  "description": "Generate TypeScript type definition file by YApi JSON",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShiverZheng/Y2T.git"
+  },
+  "keywords": [
+    "YApi",
+    "TypeScript",
+    "generator",
+    "types"
+  ],
+  "author": "Sivan Zheng",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ShiverZheng/Y2T/issues"
+  },
+  "homepage": "https://github.com/ShiverZheng/Y2T#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "4.29.2",
+    "@typescript-eslint/parser": "4.29.2",
+    "eslint": "7.32.0"
+  },
+  "dependencies": {
+    "@types/node": "10.17.60",
+    "@types/prettier": "2.3.2",
+    "@types/uuid": "8.3.1",
+    "json-to-ts": "1.7.0",
+    "json5": "2.2.0",
+    "npm-cli-login": "0.1.1",
+    "prettier": "2.3.2",
+    "promisify-child-process": "4.1.1",
+    "typescript": "4.3.5"
+  }
+}

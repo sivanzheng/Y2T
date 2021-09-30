@@ -1,0 +1,19 @@
+{
+    "port": 8080,
+    "username": "<YOUR_GIT_USERNAME>",
+    "password": "<YOUR_GIT_PASSWORD>",
+    "email": "<YOUR_GIT_EMAIL>",
+    "registry": "<YOUR_GIT_REPOSITORY_REGISTRY>",
+    "protocol": "<YOUR_YAPI_SERVICE_PROTOCOL>",
+    "hostname": "<YOUR_YAPI_SERVICE_HOSTNAME>",
+    "pathname": "/api/open/plugin/export-full",
+    "projectUrl": "<YOUR_PROJECT_URL_IN_YAPI_SERVICE>",
+    "tokens": [
+        {
+            "pid": "<YOUR_PROJECT_ID>",
+            "desc": "<YOUR_PROJECT_DESCRIPTION>",
+            "name": "<YOUR_PROJECT_NAME>",
+            "token": "<YOUR_PROJECT_TOKEN>"
+        }
+    ]
+}
