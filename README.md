@@ -51,8 +51,9 @@ Generate TypeScript type definition file by YApi JSON
 > 如果不想发布至`npm`，直接将[publish.sh](publish.sh)所有内容注释掉，生成好的定义文件在`./generated`下，可以直接使用index.d.ts文件
 
 
+#### 钉钉机器人
 
-
+接入钉钉机器人[Y2T-Robot](https://github.com/ShiverZheng/Y2T-Robot)提升使用感受
 
 ## 实现
 ### 需求分析
@@ -300,4 +301,4 @@ npm publish --registry=$REGISTRY /usr/src/app/generated/
 
 ## TODO
 *  实现[json-to-ts](https://github.com/MariusAlch/json-to-ts)，更好的定制化生成的类型。
-*  接入钉钉机器人。
+* ~~接入钉钉机器人。~~ [Y2T-Robot](https://github.com/ShiverZheng/Y2T-Robot)
