@@ -19,7 +19,8 @@
     "YApi",
     "TypeScript",
     "generator",
-    "types"
+    "types",
+    "YApi-plugin"
   ],
   "author": "Sivan Zheng",
   "license": "MIT",
